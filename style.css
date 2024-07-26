@@ -13,7 +13,7 @@ body {
 /* Estilo do cabeçalho */
 header {
     background: #333;
-    color: #fff;
+    color: #e87502;
     padding: 1rem;
     text-align: center;
 }
@@ -28,23 +28,23 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #e87502;
     text-decoration: none;
 }
 
 /* Estilo do conteúdo principal */
 main {
-    padding: 1rem;
+    padding: 36rem;
+    text-align: center;
 }
 
 /* Estilo do rodapé */
 footer {
     background: #333;
-    color: #fff;
+    color: #e87502;
     text-align: center;
     padding: 1rem;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
-
