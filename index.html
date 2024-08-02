@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Meu Site Simples</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo a Lamborghini</h1>
+        <h1>Bem-vindo ao Meu Site!</h1>
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
@@ -17,40 +17,38 @@
             </ul>
         </nav>
     </header>
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página</title>
-</head>
-<body>
-    <h1>Bem-vindo à minha página!</h1>
-    <img src="imagens/imagem1.jpg" alt="Descrição da Imagem">
-</body>
-</html>
-
-
+    
     <main>
         <section id="home">
-            <h2>Cupom</h2>
-            <p>Usando nosso cupom você tem 20% de desconto</p>
+            <h2>Início</h2>
+            <p>Esta é a seção de início do meu site.</p>
         </section>
-
+        
         <section id="about">
             <h2>Sobre</h2>
-            <p>Lamborghini é uma empresa fundada em 1925.</p>
+            <p>Aqui você pode encontrar informações sobre mim e sobre o site.</p>
         </section>
-
+        
         <section id="contact">
             <h2>Contato</h2>
-            <p> Venha comprar o carro do seu sonho Entre em contato comigo através do e-mail <a href="mailto:contato@meusite.com">empresagustavo.br</a>.</p>
+            <p>Entre em contato comigo através deste formulário.</p>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
-
+    
     <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Meu Site Simples. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
