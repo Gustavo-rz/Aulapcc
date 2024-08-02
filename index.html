@@ -3,52 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Simples</title>
+    <title>Venda de Carros - AutoMundo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Site!</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>AutoMundo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#cars">Carros</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
+
     <main>
-        <section id="home">
-            <h2>Início</h2>
-            <p>Esta é a seção de início do meu site.</p>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Encontre o Carro dos Seus Sonhos!</h2>
+                <p>Oferecemos uma seleção de carros novos e usados com os melhores preços do mercado.</p>
+                <a href="#cars" class="btn">Veja Nossos Carros</a>
+            </div>
         </section>
-        
-        <section id="about">
-            <h2>Sobre</h2>
-            <p>Aqui você pode encontrar informações sobre mim e sobre o site.</p>
+
+        <section id="cars" class="car-list">
+            <div class="container">
+                <h2>Carros em Destaque</h2>
+                <div class="car-item">
+                    <img src="car1.jpg" alt="Carro 1">
+                    <h3>Carro Modelo X</h3>
+                    <p>R$ 50.000</p>
+                    <p>Descrição breve do carro Modelo X. Ótimo estado e com garantia.</p>
+                </div>
+                <div class="car-item">
+                    <img src="car2.jpg" alt="Carro 2">
+                    <h3>Carro Modelo Y</h3>
+                    <p>R$ 70.000</p>
+                    <p>Descrição breve do carro Modelo Y. Recém-revisado e com baixo km.</p>
+                </div>
+                <!-- Adicione mais carros conforme necessário -->
+            </div>
         </section>
-        
-        <section id="contact">
-            <h2>Contato</h2>
-            <p>Entre em contato comigo através deste formulário.</p>
-            <form>
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Na AutoMundo, temos o compromisso de oferecer veículos de qualidade a preços justos. Com anos de experiência no mercado, nossa missão é garantir a melhor experiência para nossos clientes.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </section>
     </main>
-    
+
     <footer>
-        <p>&copy; 2024 Meu Site Simples. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 AutoMundo. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
